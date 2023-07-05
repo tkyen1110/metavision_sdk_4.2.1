@@ -1,0 +1,33 @@
+# Ogre Core Resources
+[OgreInternal]
+FileSystem=@OGRE_INSTALL_DIR@/Media/ShadowVolume
+FileSystem=@OGRE_INSTALL_DIR@/Media/RTShaderLib/materials
+FileSystem=@OGRE_INSTALL_DIR@/Media/RTShaderLib/GLSL
+FileSystem=@OGRE_INSTALL_DIR@/Media/RTShaderLib/HLSL_Cg
+FileSystem=@OGRE_INSTALL_DIR@/Media/Terrain/
+
+# Resources required by the sample browser and most samples.
+[Essential]
+FileSystem=@OGRE_INSTALL_DIR@/Media/thumbnails
+
+# Common sample resources needed by many of the samples.
+# Rarely used resources should be separately loaded by the
+# samples which require them.
+[General]
+# Bites uses the next entry to discover the platform shaders
+FileSystem=@OGRE_INSTALL_DIR@/Media
+FileSystem=@OGRE_INSTALL_DIR@/Media/fonts
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/programs
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/scripts
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/textures
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/textures/terrain
+FileSystem=@OGRE_INSTALL_DIR@/Media/models
+FileSystem=@OGRE_INSTALL_DIR@/Media/particle
+FileSystem=@OGRE_INSTALL_DIR@/Media/DeferredShadingMedia
+FileSystem=@OGRE_INSTALL_DIR@/Media/DeferredShadingMedia/DeferredShading/post
+FileSystem=@OGRE_INSTALL_DIR@/Media/PCZAppMedia
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/scripts/SSAO
+FileSystem=@OGRE_INSTALL_DIR@/Media/materials/textures/SSAO
+FileSystem=@OGRE_INSTALL_DIR@/Media/volumeTerrain
+FileSystem=@OGRE_INSTALL_DIR@/Media/CSMShadows
+
